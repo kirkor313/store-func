@@ -1,5 +1,4 @@
-export const ShopItemFunc = (props) => {
-  const {item} = props;
+export const ShopItemFunc = ({item}) => {
   return (
     <div class="main-content">
       <h2>{item.brand}</h2>
